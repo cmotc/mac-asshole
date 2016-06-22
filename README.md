@@ -15,6 +15,10 @@ to be a butthole, run the command like this:
 
         ./btdos.sh
 
+or, pass it the MAC address of the bluetooth device you want to DOS.
+
+        ./btdos.sh $MAC
+
 Just to be clear, I don't condone being a butthole. I also don't condone misconfigured bluetooth
 discoverability. Thus, I can comfortably remind you that whatever you do with this is your own
 legal responsibility.

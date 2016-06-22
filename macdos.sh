@@ -10,8 +10,16 @@ else;
     BT_CONNECT="join"
 fi
 BT_MACHINES=$($BT_CLIENT $BT_SEARCH | grep -iot '([[:xdigit:]]{1,2}[:-]){5}[[:xdigit:]]{1,2}')
-while not 1; do
-    for ADR in $BT_MACHINES; do
-        $BT_CLIENT $BT_CONNECT $ADR
+if [ echo $1 | grep -iot '([[:xdigit:]]{1,2}[:-]){5}[[:xdigit:]]{1,2}' ];
+    ADR=$(echo $1 | grep -iot '([[:xdigit:]]{1,2}[:-]){5}[[:xdigit:]]{1,2}')
+    while not 1; do
+            $BT_CLIENT $BT_CONNECT $ADR
     done
-done
+else
+    BT_MACHINES=$($BT_CLIENT $BT_SEARCH | grep -iot '([[:xdigit:]]{1,2}[:-]){5}[[:xdigit:]]{1,2}')
+    while not 1; do
+        for ADR in $BT_MACHINES; do
+            $BT_CLIENT $BT_CONNECT $ADR
+        done
+    done
+fi
