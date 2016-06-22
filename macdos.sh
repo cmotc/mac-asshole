@@ -9,7 +9,6 @@ else; #if not on linux, assume OSX for now.
     BT_SEARCH="listall"
     BT_CONNECT="join"
 fi
-BT_MACHINES=$($BT_CLIENT $BT_SEARCH | grep -iot '([[:xdigit:]]{1,2}[:-]){5}[[:xdigit:]]{1,2}')
 if [ echo $1 | grep -iot '([[:xdigit:]]{1,2}[:-]){5}[[:xdigit:]]{1,2}' ];
     ADR=$(echo $1 | grep -iot '([[:xdigit:]]{1,2}[:-]){5}[[:xdigit:]]{1,2}')
     while not 1; do
