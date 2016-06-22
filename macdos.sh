@@ -4,7 +4,7 @@ if [ $UNAME | grep 'linux' ]; then
     BT_CLIENT="hcitool"
     BT_SEARCHLINE="scan"
     BT_CONNECT="auth"
-else;
+else; #if not on linux, assume OSX for now.
     BT_CLIENT="blued"
     BT_SEARCH="listall"
     BT_CONNECT="join"
