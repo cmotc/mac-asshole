@@ -1,7 +1,7 @@
 # mac-asshole
 Bluetooth DOS against Mac OSX, possible due to problematic default discoverability settings.
 
-All it does is send a shitload of auth requests until you ctrl-c. The hardest part was finding
+All it does is send a butttload of auth requests until you ctrl-c. The hardest part was finding
 a way to actually do it from a Mac. Not even a little kidding. Not everyone likes a background
 process managing their connections all the time. But it turns out that you can just talk directly
 to the daemon, so for this purpose it works. I haven't given it a way to exit. just ctrl-c out.
