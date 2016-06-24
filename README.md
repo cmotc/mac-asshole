@@ -4,7 +4,7 @@ Bluetooth DOS against Mac OSX, possible due to problematic default discoverabili
 See:   
   * [r/applehelp](https://www.reddit.com/r/applehelp/comments/2rs916/turn_off_discoverability_but_leave_bluetooth_on/)
   * [Apple Forums](https://discussions.apple.com/thread/5616775?start=0&tstart=0)
-  * [Apple Stack Exchange](http://apple.stackexchange.com/questions/151481/why-is-my-macbook-visibile-on-bluetooth-after-yosemite-install)*blames it on the "Handoff" anti-feature.
+  * [Apple Stack Exchange](http://apple.stackexchange.com/questions/151481/why-is-my-macbook-visibile-on-bluetooth-after-yosemite-install) :blames it on the "Handoff" anti-feature.
 
 All it does is send a buttload of auth requests until you ctrl-c. The hardest part was finding
 a way to actually do it from a Mac. Not even a little kidding. Not everyone likes a background
