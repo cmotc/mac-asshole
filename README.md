@@ -3,8 +3,8 @@ Bluetooth DOS against Mac OSX, possible due to problematic default discoverabili
 
 See:   
   * [r/applehelp](https://www.reddit.com/r/applehelp/comments/2rs916/turn_off_discoverability_but_leave_bluetooth_on/)
-    + Turn off 'Bluetooth Sharing' in the 'Sharing' Preferences pane. Once sharing is off the Mac is no longer discoverable, unless you have the 'Bluetooth Preference pane' window open. To check 'Discoverability' make sure that the Bluetooth Preference pane is not open, then  hold down 'option' and click on the Bluetooth menu. You will see that 'Discoverable' is 'off'.
   * [Apple Forums](https://discussions.apple.com/thread/5616775?start=0&tstart=0)
+   + Turn off 'Bluetooth Sharing' in the 'Sharing' Preferences pane. Once sharing is off the Mac is no longer discoverable, unless you have the 'Bluetooth Preference pane' window open. To check 'Discoverability' make sure that the Bluetooth Preference pane is not open, then  hold down 'option' and click on the Bluetooth menu. You will see that 'Discoverable' is 'off'.
   * [Apple Stack Exchange](http://apple.stackexchange.com/questions/151481/why-is-my-macbook-visibile-on-bluetooth-after-yosemite-install) :blames it on the "Handoff" anti-feature.
 
 All it does is send a buttload of auth requests until you ctrl-c. The hardest part was finding
