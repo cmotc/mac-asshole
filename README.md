@@ -12,7 +12,8 @@ a way to actually do it from a Mac. [Not even a little kidding.](http://apple.st
 process managing their connections all the time. But it turns out that you can just talk directly
 to the daemon, so for this purpose it works. I haven't given it a way to exit. Just ctrl-c out. 
 Pretty limited scope, not an exploit, more just a way of being a butthole to people who fail at
-configuration.
+configuration. The target machine will be covered in pairing requests, impeding operation of
+the machine.
 
 Don't leak signal, guys. People are buttholes.
 
